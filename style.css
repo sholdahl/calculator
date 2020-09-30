@@ -20,7 +20,7 @@
 .button.operation{
     background-color: rgb(240, 240, 240);
 }
-.button.operation:hover, .input:hover{
+.button:hover, .input:hover{
     background-color: rgb(220, 220, 220);
     transition: all ease 0.2s;
 }

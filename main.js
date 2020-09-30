@@ -1,3 +1,9 @@
+let displayText = document.querySelector(".display-text");
+let numbers = document.querySelectorAll(".number");
+let posneg = document.querySelector(".posneg");
+let dot = document.querySelector(".dot");
+let operations = document.querySelectorAll(".operation")
+
 const add = (num1, num2) => {
     return num1 + num2;
 }
@@ -24,3 +30,4 @@ function operate(num1, num2, operation) {
         return "ERROR"
     }
 }
+
