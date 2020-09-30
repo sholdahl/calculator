@@ -1,0 +1,44 @@
+.button {
+    border: solid 1px rgb(180, 180, 180);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    transition: all ease 0.2s;
+}
+
+.display{
+    background-color: rgb(180, 180, 180);
+    padding: 3% 5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.display-text{
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.button.operation{
+    background-color: rgb(240, 240, 240);
+}
+.button.operation:hover, .input:hover{
+    background-color: rgb(220, 220, 220);
+    transition: all ease 0.2s;
+}
+
+#equals{
+    background-color: #F7CD69;
+    border-bottom-right-radius: 5px;
+    transition: all ease 0.2s;
+}
+#equals:hover{
+    background-color: #DEB450;
+    transition: all ease 0.2s;
+}
+.calc{
+    margin-top: 5%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+.posneg{
+    border-bottom-left-radius: 5px;
+}
